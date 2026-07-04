@@ -1,8 +1,8 @@
-# 🚖 Taxi Booking Service
+#  Taxi Booking Service
 
 A Spring Boot REST API project for managing taxi bookings.
 
-## 🚀 Features
+##  Features
 
 - Customer Registration
 - Driver Registration
@@ -15,7 +15,7 @@ A Spring Boot REST API project for managing taxi bookings.
 - DTO & Transformer Pattern
 - MySQL Database Integration
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Java 17
 - Spring Boot
@@ -26,7 +26,7 @@ A Spring Boot REST API project for managing taxi bookings.
 - Java Mail Sender
 - Postman
 
-## 📁 Project Structure
+##  Project Structure
 
 - Controller
 - Service
@@ -37,7 +37,7 @@ A Spring Boot REST API project for managing taxi bookings.
 - Exception
 - Enum
 
-## 📌 API Endpoints
+##  API Endpoints
 
 ### Customer
 - POST /customer/add
