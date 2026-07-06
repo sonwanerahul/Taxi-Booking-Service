@@ -61,17 +61,27 @@ public class BookingService {
         Customer savedCustomer = customerRepository.save(customer);
         Driver savedDriver = driverRepository.save(driver);
 
-        sendEmail(savedCustomer);
+        sendEmail(savedCustomer,savedDriver,savedBooking);
 
         return BookingTransformer.bookingTOBookingResponse(savedBooking,savedCustomer,availableCab,savedDriver);
     }
 
-    private void sendEmail(Customer customer){
-        String text = "congrats !! " + customer.getName()+ "Your cab has been booked";
+    private void sendEmail(Customer customer ,Driver driver , Booking booking){
+        String text = "Dear " + customer.getName()+ ",\n \n " +
+                " Congratulations ! Your cab has been booked Sucessfully.\n \n" +
+                "Booking Details :\n"+
+                "Cab No :"+driver.getCab().getCabNumber()+"\n"+
+                "Driver Name :"+driver.getName()+"\n"+
+                "Pickup Location :"+booking.getPickup()+"\n"+
+                "Drop Location :"+booking.getDestination()+"\n"+
+                "Thank you for choosing Tripease.\n"+
+                "Have a safe and happy journey ! \n\n"+
+                "Regards,\n"+
+                "Team Tripease";
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         simpleMailMessage .setFrom("rahulsonwane927@gmail.com");
         simpleMailMessage.setTo(customer.getEmail());
-        simpleMailMessage.setSubject("Booking Confirmation");
+        simpleMailMessage.setSubject("Booking Confirmation - Tripease");
         simpleMailMessage.setText(text);
 
         javaMailSender.send(simpleMailMessage);
