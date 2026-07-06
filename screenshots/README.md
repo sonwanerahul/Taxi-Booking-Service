@@ -4,10 +4,10 @@
 ![Project Structure](Project%20Structure.png)
 
 ## Customer Information
-![Customer Info](Customer%20Info.png)
+![Customer Information](Customer%20Info.png)
 
 ## Driver Information
-![Driver Info](Driver%20Info.png)
+![Driver Information](Driver%20Info.png)
 
 ## Customer API Success
 ![Customer API Success](Customer%20API%20Success.png)
