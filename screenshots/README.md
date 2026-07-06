@@ -1,19 +1,19 @@
 # Project Screenshots
 
 ## Project Structure
-![Project Structure](project-structure.png)
+![Project Structure](Project%20Structure.png)
 
 ## Customer Information
-![Customer Info](customer-info.png)
+![Customer Info](Customer%20Info.png)
 
 ## Driver Information
-![Driver Info](driver-info.png)
+![Driver Info](Driver%20Info.png)
 
 ## Customer API Success
-![Customer API](customer-api-success.png)
+![Customer API](Customer%20API%20Success.png)
 
 ## Booking API Success
-![Booking API](booking-api-success.png)
+![Booking API](Booking%20API%20Success.png)
 
 ## Booking Confirmation Email
-![Booking Confirmation](booking-confirmation.jpeg)
+![Booking Confirmation](Booking%20Conformation.jpeg)
