@@ -10,10 +10,10 @@
 ![Driver Info](Driver%20Info.png)
 
 ## Customer API Success
-![Customer API](Customer%20API%20Success.png)
+![Customer API Success](Customer%20API%20Success.png)
 
 ## Booking API Success
-![Booking API](Booking%20API%20Success.png)
+![Booking API Success](Booking%20API%20Success.png)
 
 ## Booking Confirmation Email
 ![Booking Confirmation](Booking%20Conformation.jpeg)
